@@ -1,11 +1,12 @@
 
 import numpy as np
 import pandas as pd
+import plotly.graph_objects as px
 import pickle
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 import streamlit as st
-import plotly.graph_objects as px
+
 
 
 tab1, tab2, tab3 = st.tabs(["Penquin predition", "Evaluations", "About"])
